@@ -1,0 +1,84 @@
+
+
+
+
+body{
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.main-hero-section{
+    padding: 2rem;
+}
+
+.main-hero-section .row{
+    align-items: center;
+}
+.sidebar{
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 0;
+
+
+}
+
+
+ .sidebar .profile{
+    display: flex;
+    align-items: center;
+
+    
+}
+
+.sidebar .profile .profile-image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.sidebar .profile .name{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+.sidebar .sidebar-content li a h5{ 
+    color: grey;
+}
+
+
+
+
+.sidebar ul{ 
+    padding: 0;
+}
+
+.sidebar ul li{ 
+    list-style-type: none;
+    padding: 1rem 0;
+}
+
+
+.sidebar ul li a{ 
+    text-decoration: none;
+}
+
+
+.right-section{
+    padding-left: 20px;
+}
+
+
+.right-section img{
+        width: 100%; /* Set desired width */
+        height: 500px;
+
+}
