@@ -24,6 +24,28 @@ body{
 
 }
 
+.sidebar .profile {
+    position: relative;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar .profile::after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    bottom: 0; 
+    width: 80%; 
+    height: 1px;
+    background-color: #36454F; 
+    transform: translateX(-50%); 
+}
+
+
+
+
+
+
 
 
 
@@ -31,22 +53,6 @@ body{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-}
-.sidebar .profile .name {
-    position: relative;
-    padding-bottom: 10px; /* Optional: space below the text */
-    text-align: center;
-}
-
-.sidebar .profile .name::after {
-    content: '';
-    position: absolute;
-    left: 50%; 
-    bottom: 0; 
-    width: 70%; 
-    height: 1px;
-    background-color: #36454F; 
-    transform: translateX(-50%); 
 }
 
 
@@ -59,11 +65,30 @@ body{
 }
 
 
+
 .sidebar .sidebar-content li.list-content a{
     display: flex;
     align-items: center;
     padding-left: 30px; 
 
+
+}
+
+
+.sidebar .sidebar-content li.list-content a:hover{
+    background-color: #e7edfd;
+
+}
+
+
+.sidebar .sidebar-content li.list-content a:hover i{
+    color: #0060ed;
+
+}
+
+
+.sidebar .sidebar-content li.list-content a:hover h4{
+    color: #0060ed;
 
 }
 
@@ -93,7 +118,7 @@ body{
     align-items: center; 
     justify-content: center;
     font-size: 14px;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 
 
@@ -101,6 +126,9 @@ body{
 .sidebar .sidebar-content li a h5{ 
     color: grey;
 }
+
+
+
 
 
 
