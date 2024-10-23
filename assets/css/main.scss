@@ -31,12 +31,12 @@ body {
 
 
         }
-        
-        h4{
+
+        h4 {
             font-size: 20px;
         }
 
-        p{
+        p {
             margin: 0;
         }
 
@@ -93,7 +93,7 @@ body {
             }
 
 
-            .count {
+            .badge {
                 background-color: #ff7300;
                 color: white;
                 border-radius: 50%;
@@ -105,7 +105,7 @@ body {
                 font-size: 14px;
             }
 
-            &:hover{
+            &:hover {
                 background-color: #e7edfd;
             }
         }
@@ -117,14 +117,15 @@ body {
     flex: 1;
     padding: 0 40px;
 
-    
- .Your-Profile {
-    padding-bottom: 20px;
 
-}
-img{
-    width: 100%;
-    max-height: 550px;
-}
+    .Your-Profile {
+        padding-bottom: 20px;
+
+    }
+
+    img {
+        width: 100%;
+        max-height: 550px;
+    }
 
 }
