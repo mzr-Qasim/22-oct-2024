@@ -1,0 +1,25 @@
+@import './partials/base';
+
+$color-theme: #000000;
+$color-secondary: #ffffff;
+
+
+.main-hero-section{
+    font-size: calc(.8rem + 2vw);
+
+
+
+
+
+    h4{
+        font-size: 1em;
+        color: $color-theme;
+
+    }
+
+    p{
+        font-size: 70%;
+        color: $color-theme;
+    }
+
+}
