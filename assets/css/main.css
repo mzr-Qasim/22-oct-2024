@@ -3,6 +3,32 @@ body {
   overflow-y: auto;
 }
 
+.theme-btn {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  padding: 0.8rem 1.25rem;
+  border-radius: 0.25rem;
+}
+.theme-btn.primary-btn {
+  background-color: #ff9500;
+  color: white;
+}
+.theme-btn.secondary-btn {
+  background-color: #f4ed0b;
+  color: black;
+}
+
+figure {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .main-hero-section {
   padding-left: 1.5rem;
 }
@@ -50,11 +76,6 @@ body {
 }
 .sidebar .sidebar-content {
   padding: 20px;
-}
-.sidebar ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 .sidebar ul a {
   display: flex;

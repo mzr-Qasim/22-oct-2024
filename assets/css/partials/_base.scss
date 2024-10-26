@@ -1,0 +1,41 @@
+$color-theme: #ff9500;
+$color-secondary: #f4ed0b;
+
+
+
+body {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+
+.theme-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    padding: .8rem 1.25rem;
+    border-radius: .25rem;
+
+    &.primary-btn{
+        background-color: $color-theme;
+        color: white;
+    }
+    &.secondary-btn{
+        background-color: $color-secondary;
+        color: black;
+    }
+}
+
+
+figure{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+

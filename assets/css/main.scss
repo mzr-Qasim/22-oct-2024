@@ -1,8 +1,4 @@
-body {
-    overflow: hidden;
-    overflow-y: auto;
-}
-
+@import './partials/base';
 
 .main-hero-section {
     padding-left: 1.5rem;
@@ -65,10 +61,6 @@ body {
     }
 
     ul {
-
-        margin: 0;
-        padding: 0;
-        list-style: none;
 
         a {
             display: flex;
