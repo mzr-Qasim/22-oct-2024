@@ -1,0 +1,43 @@
+body {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+img {
+  width: 100%;
+}
+
+.main-hero-section {
+  font-size: calc(0.8rem + 2vw);
+}
+.main-hero-section .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.main-hero-section h4 {
+  font-size: 1em;
+  color: #000000;
+}
+.main-hero-section p {
+  font-size: 70%;
+  color: red;
+}
+.main-hero-section .carousel-control-next, .main-hero-section .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #000000;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}/*# sourceMappingURL=theme.css.map */
